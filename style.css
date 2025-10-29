@@ -1,48 +1,48 @@
-.roboto-type {
+body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    background-color: black;
 }
+
 
 .post {
-
+    /* background-color: white;
     width: 50%;
-    margin: auto;
-
-    /*min-height: 100vh; 
-  width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: auto;*/
-
-}
-
-.post-icons {
+    margin: auto; */
+    background-color: white;
+    max-width: 720px;
+    flex-direction: column;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
 .post-header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
-.header-left {  
-   display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.header-left {
+    display: flex;
+    align-items: center;
+    padding: 20px;
 }
-.no-margin{
-    margin:0;
-    padding: 0; 
+.no-margin {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
+.header-right {
+    padding: 20px;
+}
 
 img {
     width: 100%;
@@ -50,6 +50,24 @@ img {
     object-fit: cover;
 }
 
-h1 {
-    color: aquamarine;
+.post-body {
+    padding: 15px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.fa-regular {
+    padding: 0 3px;
+}
+
+.fa-brands {
+    padding-right: 15px;
+}
+
+.texto {
+    text-align: justify;
 }
